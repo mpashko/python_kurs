@@ -31,8 +31,8 @@ def history():
     history=""
     for line in f:
         history += line+"</br>"
-    return history
     f.close()
+    return history
 
 if __name__=="__main__":
     app.run()
